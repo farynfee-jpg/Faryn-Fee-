@@ -1,12 +1,9 @@
-# Faryn Fee Website — v0.2
+# Faryn Fee Website — v0.3 update
 
-This update adds the first populated Movement / Video page:
+Upload these four items directly at the GitHub repository root:
+- index.html
+- style.css
+- script.js
+- assets/
 
-- Movement / Video introduction
-- Nine circular stills
-- Fullscreen viewing for each still
-- Placeholder sections for Nature Girl and Babbel On
-- Placeholder Current Archive
-
-Upload the contents of this folder to the existing GitHub repository.
-Vercel will redeploy automatically.
+This adds the first Babel On video: “Babel Bereavement / ABC’s”.

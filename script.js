@@ -133,3 +133,27 @@ stillButtons.forEach((button) => {
     openDiary(index);
   });
 });
+
+
+// Fullscreen video bubbles.
+const videoLightbox = document.querySelector(".video-lightbox");
+const fullscreenVideo = videoLightbox.querySelector("video");
+const videoClose = videoLightbox.querySelector(".video-lightbox-close");
+document.querySelectorAll(".video-bubble").forEach(button => {
+  const preview = button.querySelector("video");
+  button.addEventListener("pointerenter", () => preview.play().catch(() => {}));
+  button.addEventListener("pointerleave", () => preview.pause());
+  button.addEventListener("click", () => {
+    fullscreenVideo.src = button.dataset.video;
+    videoLightbox.classList.add("open");
+    videoLightbox.setAttribute("aria-hidden", "false");
+    fullscreenVideo.play().catch(() => {});
+  });
+});
+function closeFullscreenVideo(){
+  fullscreenVideo.pause(); fullscreenVideo.removeAttribute("src"); fullscreenVideo.load();
+  videoLightbox.classList.remove("open"); videoLightbox.setAttribute("aria-hidden","true");
+}
+videoClose.addEventListener("click", closeFullscreenVideo);
+videoLightbox.addEventListener("click", e => { if(e.target===videoLightbox) closeFullscreenVideo(); });
+document.addEventListener("keydown", e => { if(e.key==="Escape" && videoLightbox.classList.contains("open")) closeFullscreenVideo(); });

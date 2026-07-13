@@ -313,14 +313,17 @@
 
         <section class="movement-section work-section">
           <div class="section-heading">
-            <h2>Babbel On</h2>
-            <p>Video work coming next.</p>
+            <div>
+              <h2>Babel On</h2>
+              <h3 class="work-title">Babel Bereavement / ABC’s</h3>
+            </div>
+            <p>Click the moving image to open the full video.</p>
           </div>
           <div class="video-cell-row">
-            <div class="video-cell empty"><span>Video</span></div>
-            <div class="video-cell empty"></div>
-            <div class="video-cell empty"></div>
-            <div class="video-cell empty"></div>
+            <button class="video-bubble" data-video="assets/video/babel-bereavement-abcs.mp4" aria-label="Play Babel Bereavement / ABC’s">
+              <video src="assets/video/babel-bereavement-abcs.mp4" muted loop playsinline preload="metadata"></video>
+              <span>Babel Bereavement<br>/ ABC’s</span>
+            </button>
           </div>
         </section>
 
@@ -362,6 +365,12 @@
     <button class="lightbox-prev" aria-label="Previous">←</button>
     <img src="" alt="Enlarged journal page">
     <button class="lightbox-next" aria-label="Next">→</button>
+  </div>
+
+
+  <div class="video-lightbox" aria-hidden="true">
+    <button class="video-lightbox-close" aria-label="Close video">×</button>
+    <video controls playsinline></video>
   </div>
 
   <script src="script.js"></script>
