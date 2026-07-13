@@ -1,0 +1,369 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Faryn Fee</title>
+  <meta name="description" content="The living artistic archive of Faryn Fee.">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <canvas id="network" aria-hidden="true"></canvas>
+
+  <main id="app">
+    <section class="view active" data-view="home" aria-label="Home">
+      <div class="home-field">
+        <button class="vesicle home-top" data-target="research"><span>Research</span></button>
+        <button class="vesicle home-left" data-target="movement"><span>Movement<br><em>/</em><br>Video</span></button>
+        <button class="vesicle home-right" data-target="sculpture"><span>Sculpture</span></button>
+        <button class="vesicle home-bottom" data-target="about"><span>FF<small>About</small></span></button>
+      </div>
+    </section>
+
+    <section class="view inner-view" data-view="research" aria-label="Research">
+      <button class="back" data-target="home" aria-label="Return home">←</button>
+      <header class="portal-header"><p>Research</p></header>
+
+      <div class="research-field">
+        <button class="vesicle research-diary" data-target="dear-diary"><span>Dear Diary</span></button>
+        <button class="vesicle research-myth" data-target="myth"><span>Myth</span></button>
+        <button class="vesicle research-physiology" data-target="physiology"><span>Physiology<br>&amp;<br>Consciousness</span></button>
+        <button class="vesicle research-costume" data-target="costume"><span>Costume</span></button>
+        <button class="vesicle research-environment" data-target="environment"><span>Environment</span></button>
+      </div>
+    </section>
+
+    <section class="view diary-view" data-view="dear-diary" aria-label="Dear Diary">
+      <button class="back" data-target="research" aria-label="Return to Research">←</button>
+      <button class="home-link" data-target="home">Faryn Fee</button>
+
+      <div class="diary-shell">
+        <header class="diary-header">
+          <p>Research</p>
+          <h1>Dear Diary</h1>
+          <em>Every sculpture begins here, before it knows what it is.</em>
+        </header>
+        <section class="diary-grid">
+          <figure class="diary-card">
+      <button class="diary-open" data-image="assets/journal/IMG_3525.jpg" aria-label="Open journal page">
+        <img src="assets/journal/IMG_3525.jpg" alt="Journal page" loading="lazy">
+      </button>
+    </figure>
+<figure class="diary-card">
+      <button class="diary-open" data-image="assets/journal/IMG_3526.jpg" aria-label="Open journal page">
+        <img src="assets/journal/IMG_3526.jpg" alt="Journal page" loading="lazy">
+      </button>
+    </figure>
+<figure class="diary-card">
+      <button class="diary-open" data-image="assets/journal/IMG_3527.jpg" aria-label="Open journal page">
+        <img src="assets/journal/IMG_3527.jpg" alt="Journal page" loading="lazy">
+      </button>
+    </figure>
+<figure class="diary-card">
+      <button class="diary-open" data-image="assets/journal/IMG_3528.jpg" aria-label="Open journal page">
+        <img src="assets/journal/IMG_3528.jpg" alt="Journal page" loading="lazy">
+      </button>
+    </figure>
+<figure class="diary-card">
+      <button class="diary-open" data-image="assets/journal/IMG_3529.jpg" aria-label="Open journal page">
+        <img src="assets/journal/IMG_3529.jpg" alt="Journal page" loading="lazy">
+      </button>
+    </figure>
+<figure class="diary-card">
+      <button class="diary-open" data-image="assets/journal/IMG_3530.jpg" aria-label="Open journal page">
+        <img src="assets/journal/IMG_3530.jpg" alt="Journal page" loading="lazy">
+      </button>
+    </figure>
+<figure class="diary-card">
+      <button class="diary-open" data-image="assets/journal/IMG_3531.jpg" aria-label="Open journal page">
+        <img src="assets/journal/IMG_3531.jpg" alt="Journal page" loading="lazy">
+      </button>
+    </figure>
+<figure class="diary-card">
+      <button class="diary-open" data-image="assets/journal/IMG_3532.jpg" aria-label="Open journal page">
+        <img src="assets/journal/IMG_3532.jpg" alt="Journal page" loading="lazy">
+      </button>
+    </figure>
+<figure class="diary-card">
+      <button class="diary-open" data-image="assets/journal/IMG_3533.jpg" aria-label="Open journal page">
+        <img src="assets/journal/IMG_3533.jpg" alt="Journal page" loading="lazy">
+      </button>
+    </figure>
+<figure class="diary-card">
+      <button class="diary-open" data-image="assets/journal/IMG_3534.jpg" aria-label="Open journal page">
+        <img src="assets/journal/IMG_3534.jpg" alt="Journal page" loading="lazy">
+      </button>
+    </figure>
+<figure class="diary-card">
+      <button class="diary-open" data-image="assets/journal/IMG_3535.jpg" aria-label="Open journal page">
+        <img src="assets/journal/IMG_3535.jpg" alt="Journal page" loading="lazy">
+      </button>
+    </figure>
+<figure class="diary-card">
+      <button class="diary-open" data-image="assets/journal/IMG_3536.jpg" aria-label="Open journal page">
+        <img src="assets/journal/IMG_3536.jpg" alt="Journal page" loading="lazy">
+      </button>
+    </figure>
+<figure class="diary-card">
+      <button class="diary-open" data-image="assets/journal/IMG_3537.jpg" aria-label="Open journal page">
+        <img src="assets/journal/IMG_3537.jpg" alt="Journal page" loading="lazy">
+      </button>
+    </figure>
+<figure class="diary-card">
+      <button class="diary-open" data-image="assets/journal/IMG_3538.jpg" aria-label="Open journal page">
+        <img src="assets/journal/IMG_3538.jpg" alt="Journal page" loading="lazy">
+      </button>
+    </figure>
+<figure class="diary-card">
+      <button class="diary-open" data-image="assets/journal/IMG_3540.jpg" aria-label="Open journal page">
+        <img src="assets/journal/IMG_3540.jpg" alt="Journal page" loading="lazy">
+      </button>
+    </figure>
+<figure class="diary-card">
+      <button class="diary-open" data-image="assets/journal/IMG_3541.jpg" aria-label="Open journal page">
+        <img src="assets/journal/IMG_3541.jpg" alt="Journal page" loading="lazy">
+      </button>
+    </figure>
+<figure class="diary-card">
+      <button class="diary-open" data-image="assets/journal/IMG_3542.jpg" aria-label="Open journal page">
+        <img src="assets/journal/IMG_3542.jpg" alt="Journal page" loading="lazy">
+      </button>
+    </figure>
+<figure class="diary-card">
+      <button class="diary-open" data-image="assets/journal/IMG_3543.jpg" aria-label="Open journal page">
+        <img src="assets/journal/IMG_3543.jpg" alt="Journal page" loading="lazy">
+      </button>
+    </figure>
+<figure class="diary-card">
+      <button class="diary-open" data-image="assets/journal/IMG_3544.jpg" aria-label="Open journal page">
+        <img src="assets/journal/IMG_3544.jpg" alt="Journal page" loading="lazy">
+      </button>
+    </figure>
+<figure class="diary-card">
+      <button class="diary-open" data-image="assets/journal/IMG_3545.jpg" aria-label="Open journal page">
+        <img src="assets/journal/IMG_3545.jpg" alt="Journal page" loading="lazy">
+      </button>
+    </figure>
+<figure class="diary-card">
+      <button class="diary-open" data-image="assets/journal/IMG_3546.jpg" aria-label="Open journal page">
+        <img src="assets/journal/IMG_3546.jpg" alt="Journal page" loading="lazy">
+      </button>
+    </figure>
+<figure class="diary-card">
+      <button class="diary-open" data-image="assets/journal/IMG_3548.jpg" aria-label="Open journal page">
+        <img src="assets/journal/IMG_3548.jpg" alt="Journal page" loading="lazy">
+      </button>
+    </figure>
+<figure class="diary-card">
+      <button class="diary-open" data-image="assets/journal/IMG_3549.jpg" aria-label="Open journal page">
+        <img src="assets/journal/IMG_3549.jpg" alt="Journal page" loading="lazy">
+      </button>
+    </figure>
+<figure class="diary-card">
+      <button class="diary-open" data-image="assets/journal/IMG_3550.jpg" aria-label="Open journal page">
+        <img src="assets/journal/IMG_3550.jpg" alt="Journal page" loading="lazy">
+      </button>
+    </figure>
+<figure class="diary-card">
+      <button class="diary-open" data-image="assets/journal/IMG_3551.jpg" aria-label="Open journal page">
+        <img src="assets/journal/IMG_3551.jpg" alt="Journal page" loading="lazy">
+      </button>
+    </figure>
+<figure class="diary-card">
+      <button class="diary-open" data-image="assets/journal/IMG_3552.jpg" aria-label="Open journal page">
+        <img src="assets/journal/IMG_3552.jpg" alt="Journal page" loading="lazy">
+      </button>
+    </figure>
+<figure class="diary-card">
+      <button class="diary-open" data-image="assets/journal/IMG_3553.jpg" aria-label="Open journal page">
+        <img src="assets/journal/IMG_3553.jpg" alt="Journal page" loading="lazy">
+      </button>
+    </figure>
+<figure class="diary-card">
+      <button class="diary-open" data-image="assets/journal/IMG_3554.jpg" aria-label="Open journal page">
+        <img src="assets/journal/IMG_3554.jpg" alt="Journal page" loading="lazy">
+      </button>
+    </figure>
+<figure class="diary-card">
+      <button class="diary-open" data-image="assets/journal/IMG_3555.jpg" aria-label="Open journal page">
+        <img src="assets/journal/IMG_3555.jpg" alt="Journal page" loading="lazy">
+      </button>
+    </figure>
+<figure class="diary-card">
+      <button class="diary-open" data-image="assets/journal/IMG_3556.jpg" aria-label="Open journal page">
+        <img src="assets/journal/IMG_3556.jpg" alt="Journal page" loading="lazy">
+      </button>
+    </figure>
+<figure class="diary-card">
+      <button class="diary-open" data-image="assets/journal/IMG_3557.jpg" aria-label="Open journal page">
+        <img src="assets/journal/IMG_3557.jpg" alt="Journal page" loading="lazy">
+      </button>
+    </figure>
+<figure class="diary-card">
+      <button class="diary-open" data-image="assets/journal/IMG_3558.jpg" aria-label="Open journal page">
+        <img src="assets/journal/IMG_3558.jpg" alt="Journal page" loading="lazy">
+      </button>
+    </figure>
+<figure class="diary-card">
+      <button class="diary-open" data-image="assets/journal/IMG_3559.jpg" aria-label="Open journal page">
+        <img src="assets/journal/IMG_3559.jpg" alt="Journal page" loading="lazy">
+      </button>
+    </figure>
+        </section>
+      </div>
+    </section>
+
+    <section class="view text-view" data-view="myth">
+      <button class="back" data-target="research">←</button>
+      <div class="text-shell">
+        <p class="eyebrow">Research</p>
+        <h1>Myth</h1>
+        <p class="lede">A growing chamber for Inanna, Ereshkigal, Kur, descent, the gates, the Sphinx, remembrance, death, resurrection and return.</p>
+      </div>
+    </section>
+
+    <section class="view text-view" data-view="physiology">
+      <button class="back" data-target="research">←</button>
+      <div class="text-shell">
+        <p class="eyebrow">Research</p>
+        <h1>Physiology &amp;<br>Consciousness</h1>
+        <p class="lede">Fascia, liquid crystalline structure, cellular exchange, membranes, osmosis, embodied intelligence and the substrate of consciousness.</p>
+      </div>
+    </section>
+
+    <section class="view text-view" data-view="costume">
+      <button class="back" data-target="research">←</button>
+      <div class="text-shell">
+        <p class="eyebrow">Research</p>
+        <h1>Costume</h1>
+        <p class="lede">Hair, silicone skin, bodily architecture, veils, organs, follicles, animal morphology and wearable transformation.</p>
+      </div>
+    </section>
+
+    <section class="view text-view" data-view="environment">
+      <button class="back" data-target="research">←</button>
+      <div class="text-shell">
+        <p class="eyebrow">Research</p>
+        <h1>Environment</h1>
+        <p class="lede">The performance field: spatial membranes, ritual sites, audience passage, water, light, sound, pedestals and thresholds.</p>
+      </div>
+    </section>
+
+    
+    <section class="view movement-view" data-view="movement">
+      <button class="back" data-target="home">←</button>
+
+      <div class="movement-shell">
+        <header class="movement-header">
+          <p class="eyebrow">Movement / Video</p>
+          <h1>Archive</h1>
+          <p class="movement-intro">
+            Movement, performance, film, ritual action, bodily research and moving-image experiments.
+          </p>
+        </header>
+
+        <section class="movement-section stills-section">
+          <div class="section-heading">
+            <h2>Stills</h2>
+            <p>Click any image to open it full screen.</p>
+          </div>
+          <div class="stills-field">
+            <button class="still-cell still-open" data-image="assets/stills/still-01.jpg" aria-label="Open still 1">
+      <img src="assets/stills/still-01.jpg" alt="Movement and video still 1" loading="lazy">
+    </button>
+<button class="still-cell still-open" data-image="assets/stills/still-02.jpg" aria-label="Open still 2">
+      <img src="assets/stills/still-02.jpg" alt="Movement and video still 2" loading="lazy">
+    </button>
+<button class="still-cell still-open" data-image="assets/stills/still-03.jpg" aria-label="Open still 3">
+      <img src="assets/stills/still-03.jpg" alt="Movement and video still 3" loading="lazy">
+    </button>
+<button class="still-cell still-open" data-image="assets/stills/still-04.jpg" aria-label="Open still 4">
+      <img src="assets/stills/still-04.jpg" alt="Movement and video still 4" loading="lazy">
+    </button>
+<button class="still-cell still-open" data-image="assets/stills/still-05.png" aria-label="Open still 5">
+      <img src="assets/stills/still-05.png" alt="Movement and video still 5" loading="lazy">
+    </button>
+<button class="still-cell still-open" data-image="assets/stills/still-06.png" aria-label="Open still 6">
+      <img src="assets/stills/still-06.png" alt="Movement and video still 6" loading="lazy">
+    </button>
+<button class="still-cell still-open" data-image="assets/stills/still-07.png" aria-label="Open still 7">
+      <img src="assets/stills/still-07.png" alt="Movement and video still 7" loading="lazy">
+    </button>
+<button class="still-cell still-open" data-image="assets/stills/still-08.png" aria-label="Open still 8">
+      <img src="assets/stills/still-08.png" alt="Movement and video still 8" loading="lazy">
+    </button>
+<button class="still-cell still-open" data-image="assets/stills/still-09.png" aria-label="Open still 9">
+      <img src="assets/stills/still-09.png" alt="Movement and video still 9" loading="lazy">
+    </button>
+          </div>
+        </section>
+
+        <section class="movement-section work-section">
+          <div class="section-heading">
+            <h2>Nature Girl</h2>
+            <p>Video work coming next.</p>
+          </div>
+          <div class="video-cell-row">
+            <div class="video-cell empty"><span>Video</span></div>
+            <div class="video-cell empty"><span>Video</span></div>
+            <div class="video-cell empty"></div>
+            <div class="video-cell empty"></div>
+          </div>
+        </section>
+
+        <section class="movement-section work-section">
+          <div class="section-heading">
+            <h2>Babbel On</h2>
+            <p>Video work coming next.</p>
+          </div>
+          <div class="video-cell-row">
+            <div class="video-cell empty"><span>Video</span></div>
+            <div class="video-cell empty"></div>
+            <div class="video-cell empty"></div>
+            <div class="video-cell empty"></div>
+          </div>
+        </section>
+
+        <section class="movement-section archive-section">
+          <div class="section-heading">
+            <h2>Current Archive</h2>
+            <p>Password-protected working material will live here.</p>
+          </div>
+          <div class="archive-dot-field">
+            <span></span><span></span><span></span><span></span><span></span><span></span>
+            <span></span><span></span><span></span><span></span><span></span><span></span>
+          </div>
+        </section>
+      </div>
+    </section>
+
+
+    <section class="view text-view" data-view="sculpture">
+      <button class="back" data-target="home">←</button>
+      <div class="text-shell">
+        <p class="eyebrow">Sculpture</p>
+        <h1>Body, skin,<br>vessel, threshold.</h1>
+        <p class="lede">Cellves, sphinxes, serpents, porcelain, silicone, hair, installation and material experiments.</p>
+      </div>
+    </section>
+
+    <section class="view text-view" data-view="about">
+      <button class="back" data-target="home">←</button>
+      <div class="text-shell">
+        <p class="eyebrow">FF</p>
+        <h1>Faryn Fee</h1>
+        <p class="lede">An artist working across sculpture, performance, movement, sound, moving image and material experimentation.</p>
+      </div>
+    </section>
+  </main>
+
+  <div class="lightbox" aria-hidden="true">
+    <button class="lightbox-close" aria-label="Close">×</button>
+    <button class="lightbox-prev" aria-label="Previous">←</button>
+    <img src="" alt="Enlarged journal page">
+    <button class="lightbox-next" aria-label="Next">→</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
